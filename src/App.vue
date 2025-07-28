@@ -4,6 +4,7 @@
   </div>
 </template>
 <script setup></script>
+
 <style>
 html,
 body,
@@ -13,6 +14,11 @@ body,
   padding: 0;
   margin: 0;
   max-width: 100%;
-  max-height: 100%;
+  display: flex;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
 }
 </style>
